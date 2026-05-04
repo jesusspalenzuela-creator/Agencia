@@ -221,37 +221,61 @@
     </div>
 </section>
         
-        <!-- Servicios -->
-        <section id="servicios" class="py-16 md:py-24 bg-black-transparent">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="section-title text-center mb-16 fade-in-up">Nuestros Servicios</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="card p-8 rounded-2xl flex flex-col items-center transition-transform hover:scale-105 fade-in-up">
-                        <svg class="w-16 h-16 text-inovixe-blue mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99"></path></svg>
-                        <h3 class="font-bold text-xl mb-2">Automatizaciones de Procesos</h3>
-                        <p class="text-gray-400 text-center">Automatizamos flujos operativos con IA para reducir costos y aumentar la eficiencia.</p>
-                    </div>
-
-                    <div class="card p-8 rounded-2xl flex flex-col items-center transition-transform hover:scale-105 fade-in-up" style="transition-delay: 0.1s;">
-                        <svg class="w-16 h-16 text-inovixe-blue mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037 .893 .281 1.153.671L12 21l4.108-3.978c.26-.39.687-.634 1.153-.671 1.09-.085 2.17-.207 3.238-.364 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path></svg>
-                        <h3 class="font-bold text-xl mb-2">Agentes de IA Autónomos</h3>
-                        <p class="text-gray-400 text-center">Agentes inteligentes para WhatsApp, web, redes y voz que trabajan 24/7.</p>
-                    </div>
-
-                    <div class="card p-8 rounded-2xl flex flex-col items-center transition-transform hover:scale-105 fade-in-up" style="transition-delay: 0.3s;">
-                        <svg class="w-16 h-16 text-inovixe-blue mb-4" fill="none" stroke="currentColor" viewBox="0 0 16 16"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2z"></path></svg>
-                        <h3 class="font-bold text-xl mb-2">Sistemas y Software Inteligente</h3>
-                        <p class="text-gray-400 text-center">Desarrollamos software y sistemas personalizados con IA según las necesidades de tu negocio.</p>
-                    </div>
-
-                    <div class="card p-8 rounded-2xl flex flex-col items-center transition-transform hover:scale-105 fade-in-up" style="transition-delay: 0.5s;">
-                        <svg class="w-16 h-16 text-inovixe-blue mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"></path></svg>
-                        <h3 class="font-bold text-xl mb-2">Consultoría en IA y Automatizaciones</h3>
-                        <p class="text-gray-400 text-center">Asesoramiento estratégico para implementar soluciones de IA y automatizaciones de forma efectiva.</p>
-                    </div>
+<!-- Servicios -->
+<section id="servicios" class="py-16 md:py-24 bg-black-transparent">
+    <div class="container mx-auto px-6">
+        <h2 class="section-title text-center mb-16 fade-in-up font-bold text-white text-4xl">Nuestros Servicios</h2>
+        
+        <!-- Grid ajustado: 1 columna en móvil, 2 en tablets/PC -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+            
+            <!-- Servicio 1: Automatizaciones -->
+            <div class="card p-10 rounded-2xl flex flex-col items-center transition-all hover:scale-105 border border-gray-800 bg-gray-900/40 backdrop-blur-sm fade-in-up">
+                <div class="bg-blue-500/10 p-4 rounded-full mb-6">
+                    <svg class="w-12 h-12 text-inovixe-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99"></path></svg>
                 </div>
+                <h3 class="font-bold text-2xl mb-4 text-white text-center">Automatización de Procesos Críticos</h3>
+                <p class="text-gray-400 text-center leading-relaxed">
+                    Diseñamos e implementamos flujos de trabajo autónomos que eliminan tareas repetitivas. Conectamos tus herramientas actuales con IA para reducir drásticamente los tiempos de ejecución y los costos operativos de tu negocio.
+                </p>
             </div>
-        </section>
+
+            <!-- Servicio 2: Agentes IA -->
+            <div class="card p-10 rounded-2xl flex flex-col items-center transition-all hover:scale-105 border border-gray-800 bg-gray-900/40 backdrop-blur-sm fade-in-up" style="transition-delay: 0.1s;">
+                <div class="bg-blue-500/10 p-4 rounded-full mb-6">
+                    <svg class="w-12 h-12 text-inovixe-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037 .893 .281 1.153.671L12 21l4.108-3.978c.26-.39.687-.634 1.153-.671 1.09-.085 2.17-.207 3.238-.364 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"></path></svg>
+                </div>
+                <h3 class="font-bold text-2xl mb-4 text-white text-center">Agentes de IA Conversacionales</h3>
+                <p class="text-gray-400 text-center leading-relaxed">
+                    Desarrollamos agentes inteligentes multicanal (WhatsApp, Web, Voz) con capacidad de razonamiento. Capaces de gestionar agendas, resolver dudas complejas y realizar triaje de clientes las 24 horas del día, los 7 días de la semana.
+                </p>
+            </div>
+
+            <!-- Servicio 3: Software Inteligente -->
+            <div class="card p-10 rounded-2xl flex flex-col items-center transition-all hover:scale-105 border border-gray-800 bg-gray-900/40 backdrop-blur-sm fade-in-up" style="transition-delay: 0.2s;">
+                <div class="bg-blue-500/10 p-4 rounded-full mb-6">
+                    <svg class="w-12 h-12 text-inovixe-blue" fill="none" stroke="currentColor" viewBox="0 0 16 16"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2z"></path></svg>
+                </div>
+                <h3 class="font-bold text-2xl mb-4 text-white text-center">Software y Sistemas a Medida</h3>
+                <p class="text-gray-400 text-center leading-relaxed">
+                    Creamos ecosistemas digitales personalizados integrando lógica de IA avanzada. Desde paneles de administración inteligentes hasta sistemas de procesamiento de datos con JavaScript y n8n diseñados específicamente para tu modelo de negocio.
+                </p>
+            </div>
+
+            <!-- Servicio 4: Consultoría -->
+            <div class="card p-10 rounded-2xl flex flex-col items-center transition-all hover:scale-105 border border-gray-800 bg-gray-900/40 backdrop-blur-sm fade-in-up" style="transition-delay: 0.3s;">
+                <div class="bg-blue-500/10 p-4 rounded-full mb-6">
+                    <svg class="w-12 h-12 text-inovixe-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"></path></svg>
+                </div>
+                <h3 class="font-bold text-2xl mb-4 text-white text-center">Consultoría Estratégica en IA</h3>
+                <p class="text-gray-400 text-center leading-relaxed">
+                    Te guiamos en la adopción tecnológica para asegurar un retorno de inversión real. Analizamos tus cuellos de botella actuales y trazamos una hoja de ruta para implementar IA de manera escalable, segura y eficiente.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
 
         <!-- Testimonios, FAQ, CTA y Contacto permanecen iguales (como en la versión anterior) -->
 
