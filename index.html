@@ -36,11 +36,22 @@
             -webkit-text-fill-color: transparent; 
         }
 
-        .logo-font {
-            font-family: 'Inter', sans-serif;
-            font-weight: 900;
-            letter-spacing: -0.04em;
-        }
+        /* Primero le decimos a la web que cargue tu archivo */
+@font-face {
+    font-family: 'RollerCustom';
+    src: url('Roller.ttf'); 
+}
+
+/* Luego aplicamos esa fuente al logo */
+.logo-font {
+    font-family: 'RollerCustom', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Esto es para que las letras no se amontonen */
+.logo-font span {
+    letter-spacing: 0.05em !important;
+}
 
         .btn-cta { 
             padding: 0.75rem 2rem; 
@@ -83,11 +94,11 @@
     <header class="bg-black bg-opacity-80 backdrop-blur-sm fixed top-0 left-0 w-full z-50 transition-all duration-300">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center">
-                <a href="#inicio" class="flex items-center logo-font">
-                    <span class="text-white text-3xl tracking-tighter">Inóvi</span>
-                    <span class="text-inovixe-blue text-3xl tracking-tighter">x</span>
-                    <span class="text-white text-3xl tracking-tighter">e</span>
-                </a>
+<a href="#inicio" class="flex items-center logo-font">
+    <span class="text-white text-3xl">Inóvi</span>
+    <span class="text-inovixe-blue text-3xl">x</span>
+    <span class="text-white text-3xl">e</span>
+</a>
             </div>
             <div class="hidden lg:flex items-center space-x-8">
                 <a href="#inicio" class="nav-link text-gray-300 hover:text-inovixe-blue transition-colors">Inicio</a>
