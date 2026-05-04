@@ -36,20 +36,19 @@
             -webkit-text-fill-color: transparent; 
         }
 
-  /* Esto descarga la fuente automáticamente */
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+ /* Importamos Orbitron: la fuente estándar para tecnología y software */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
 .logo-font {
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
-    /* Esto le da el grosor y efecto de la foto */
-    letter-spacing: 0.05em;
-    line-height: 1;
+    letter-spacing: 0.15em; /* Un poco de separación para que se vea elegante */
+    font-weight: 700;
 }
 
-/* Ajuste para que los colores se vean sólidos */
-.logo-font span {
-    display: inline-block;
+/* Ajuste específico para la 'x' azul */
+.logo-font .text-inovixe-blue {
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.5); /* Un ligero brillo tecnológico */
 }
         .btn-cta { 
             padding: 0.75rem 2rem; 
@@ -93,9 +92,9 @@
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
 <div class="flex items-center">
     <a href="#inicio" class="flex items-center logo-font">
-        <span class="text-white text-3xl">Inóvi</span>
-        <span class="text-inovixe-blue text-3xl">x</span>
-        <span class="text-white text-3xl">e</span>
+        <span class="text-white text-2xl">Inóvi</span>
+        <span class="text-inovixe-blue text-2xl">x</span>
+        <span class="text-white text-2xl">e</span>
     </a>
 </div>
             <div class="hidden lg:flex items-center space-x-8">
