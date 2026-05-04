@@ -148,72 +148,74 @@
                 Nuestra misión es transformar la complejidad tecnológica en simplicidad operativa. Implementamos agentes inteligentes y flujos de trabajo autónomos que permiten a las empresas reducir drásticamente sus costos operativos mientras escalan su capacidad de respuesta.
             </p>
             
-            <!-- Figura Tecnológica: Cerebro de Circuitos Integrados -->
-            <div class="flex justify-center mt-4">
-                <div class="relative">
-                    <!-- Resplandor de fondo para atmósfera tecnológica -->
-                    <div class="absolute inset-0 bg-blue-500 blur-[120px] opacity-20"></div>
-                    
-                    <svg width="450" height="350" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" class="relative z-10 drop-shadow-[0_0_20px_rgba(0,163,255,0.3)]">
-                        <!-- Definición de Gradientes -->
-                        <defs>
-                            <linearGradient id="gradBlue" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" style="stop-color:#00A3FF;stop-opacity:1" />
-                                <stop offset="100%" style="stop-color:#0057FF;stop-opacity:1" />
-                            </linearGradient>
-                        </defs>
+            <!-- Contenedor Estilo Tarjeta para la Figura -->
+            <div class="max-w-5xl mx-auto mt-4 p-8 rounded-2xl bg-gray-900/50 border border-gray-800 backdrop-blur-sm shadow-2xl">
+                <div class="flex justify-center">
+                    <div class="relative w-full max-w-2xl">
+                        <!-- Resplandor de fondo -->
+                        <div class="absolute inset-0 bg-blue-500 blur-[120px] opacity-10"></div>
+                        
+                        <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg" class="relative z-10 w-full h-auto drop-shadow-[0_0_30px_rgba(0,163,255,0.4)]">
+                            <defs>
+                                <linearGradient id="gradIA" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00A3FF;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#0057FF;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
 
-                        <!-- Estructura de Circuitos del Cerebro (Líneas Tecnológicas) -->
-                        <g stroke="url(#gradBlue)" stroke-width="1.5" fill="none" opacity="0.8">
-                            <!-- Lado Izquierdo -->
-                            <path d="M200 50 Q130 50 100 100 T70 180 Q70 240 130 250 T200 250" stroke-width="3" />
-                            <path d="M120 80 L80 120 L80 180 L110 210" />
-                            <path d="M150 60 L120 90 L120 210 L150 240" />
-                            
-                            <!-- Lado Derecho -->
-                            <path d="M200 50 Q270 50 300 100 T330 180 Q330 240 270 250 T200 250" stroke-width="3" />
-                            <path d="M280 80 L320 120 L320 180 L290 210" />
-                            <path d="M250 60 L280 90 L280 210 L250 240" />
-                        </g>
+                            <!-- Circuitos Estilizados del Cerebro -->
+                            <g stroke="url(#gradIA)" stroke-width="1.5" fill="none" opacity="0.9">
+                                <!-- Estructura Principal -->
+                                <path d="M200 30 Q140 30 110 80 T80 150 Q80 210 140 220 T200 220" stroke-width="2.5" />
+                                <path d="M200 30 Q260 30 290 80 T320 150 Q320 210 260 220 T200 220" stroke-width="2.5" />
+                                
+                                <!-- Conexiones Internas Tipo Red -->
+                                <path d="M130 70 L100 110 L100 160 L140 200" />
+                                <path d="M270 70 L300 110 L300 160 L260 200" />
+                                <path d="M160 50 L140 90 L140 180 L170 210" />
+                                <path d="M240 50 L260 90 L260 180 L230 210" />
+                            </g>
 
-                        <!-- Nodos de Conexión (Puntos brillantes) -->
-                        <g fill="#00A3FF">
-                            <circle cx="200" cy="50" r="4" />
-                            <circle cx="200" cy="250" r="4" />
-                            <circle cx="80" cy="120" r="3" />
-                            <circle cx="320" cy="120" r="3" />
-                            <circle cx="80" cy="180" r="3" />
-                            <circle cx="320" cy="180" r="3" />
-                            <circle cx="120" cy="150" r="2" />
-                            <circle cx="280" cy="150" r="2" />
-                        </g>
+                            <!-- Nodos de Energía -->
+                            <g fill="#00A3FF">
+                                <circle cx="200" cy="30" r="4" />
+                                <circle cx="200" cy="220" r="4" />
+                                <circle cx="100" cy="110" r="3" />
+                                <circle cx="300" cy="110" r="3" />
+                                <circle cx="100" cy="160" r="3" />
+                                <circle cx="300" cy="160" r="3" />
+                            </g>
 
-                        <!-- Núcleo Procesador Central -->
-                        <g>
-                            <rect x="175" y="125" width="50" height="50" rx="4" fill="#111827" stroke="#00A3FF" stroke-width="2" />
-                            <!-- Efecto de escaneo / energía -->
-                            <line x1="180" y1="135" x2="220" y2="135" stroke="#00A3FF" stroke-width="1" opacity="0.5" />
-                            <line x1="180" y1="150" x2="220" y2="150" stroke="#00A3FF" stroke-width="1" opacity="0.5" />
-                            <line x1="180" y1="165" x2="220" y2="165" stroke="#00A3FF" stroke-width="1" opacity="0.5" />
-                            
-                            <!-- Pulso Central -->
-                            <circle cx="200" cy="150" r="6" fill="#00A3FF">
-                                <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite" />
-                                <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite" />
+                            <!-- Núcleo de Procesamiento -->
+                            <g>
+                                <rect x="170" y="105" width="60" height="60" rx="6" fill="#0b0f1a" stroke="#00A3FF" stroke-width="2" />
+                                
+                                <!-- Animación de Pulso Digital -->
+                                <circle cx="200" cy="135" r="8" fill="#00A3FF">
+                                    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" />
+                                    <animate attributeName="r" values="6;10;6" dur="1.5s" repeatCount="indefinite" />
+                                </circle>
+                                
+                                <!-- Líneas de Datos del Núcleo -->
+                                <line x1="180" y1="120" x2="220" y2="120" stroke="#00A3FF" stroke-width="1" opacity="0.6" />
+                                <line x1="180" y1="135" x2="220" y2="135" stroke="#00A3FF" stroke-width="1" opacity="0.6" />
+                                <line x1="180" y1="150" x2="220" y2="150" stroke="#00A3FF" stroke-width="1" opacity="0.6" />
+                            </g>
+
+                            <!-- Bits en Movimiento -->
+                            <circle r="2.5" fill="#FFF">
+                                <animateMotion dur="2s" repeatCount="indefinite" path="M140 90 L140 180" />
+                                <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
                             </circle>
-                        </g>
-
-                        <!-- Flujo de Datos (Animación de bits) -->
-                        <circle r="2" fill="#FFF">
-                            <animateMotion dur="3s" repeatCount="indefinite" path="M120 90 L120 210" />
-                            <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" />
-                        </circle>
-                        <circle r="2" fill="#FFF">
-                            <animateMotion dur="2.5s" repeatCount="indefinite" path="M280 210 L280 90" />
-                            <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite" />
-                        </circle>
-                    </svg>
+                            <circle r="2.5" fill="#FFF">
+                                <animateMotion dur="2.5s" repeatCount="indefinite" path="M260 180 L260 90" />
+                                <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite" />
+                            </circle>
+                        </svg>
+                    </div>
                 </div>
+                <!-- Etiqueta sutil debajo de la figura -->
+                <p class="text-blue-500/60 text-xs font-mono mt-4 tracking-widest uppercase">Sistema de IA Activo</p>
             </div>
         </div>
     </div>
